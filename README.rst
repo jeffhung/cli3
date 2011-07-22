@@ -2,13 +2,13 @@ CLI3 - Command Line Interface 3
 ===============================
 
 For a long time, I am looking for good and popular command line parser to
-ease command line tool developments in Java.  However, none satisfies me.
+ease command line tool developments in Java.  However, none satisfied me.
 
 Apache Commons CLI is simple, elegant, and popular. But it is too limited
-that cannot support common design such as sub-command.  And its successor,
-CLI2, is never finished or released according to its official site.  Since
-I do not know any other good and popular implementation, I decide to make
-my own one.
+that do not support common design such as sub-command.  And its successor,
+CLI2, is never finished nor released according to official website.  Since
+I do not know any other good and popular implementation (any suggestion?),
+I decide to make my own one.
 
 Ideas
 -----
@@ -38,6 +38,7 @@ Here are some thoughts about how CLI3 should be designed:
   - consistent positional argument order
   - support common pattens, such as sub-command
   - consistent behavior/direction between arguments and standard in/out.
+  - ...
   
   I believe there are many materials on Internet, too.  However, although
   I will search for these existing, popular, and recommended command line
